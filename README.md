@@ -1,16 +1,87 @@
-# React + Vite
+<img width="871" height="746" alt="image" src="https://github.com/user-attachments/assets/c7e6cec8-d6b3-4618-bae0-c4dc7e9ad5c3" /># 🧮 BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive BMI Calculator web application built using React.  
+This application allows users to enter their personal details and instantly view their BMI result along with the corresponding health category.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+- Enter Name and Age
+- Select Gender
+- Input Height and Weight
+- Instant BMI Calculation
+- Displays BMI Category Result
+- Clean and Responsive UI
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+- React.js
+- JavaScript
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+BMI-Calculator
+│
+├── src
+│ ├── components
+│ │ └── BMIForm.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── styles.css
+│
+├── public
+├── index.html
+├── package.json
+└── README.md
+
+
+---
+
+## 📊 BMI Formula
+
+BMI = weight (kg) / height² (m²)
+
+
+---
+
+## 📈 BMI Result Categories
+| BMI Range | Category |
+|----------|----------|
+| < 18.5 | Underweight |
+| 18.5 – 24.9 | Normal |
+| 25 – 29.9 | Overweight |
+| 30+ | Obese |
+
+---
+
+## ▶️ How to Run Project
+
+npm install
+npm run dev
+
+
+---
+
+## 🎯 Purpose
+This project was created to practice React concepts such as components, state management, event handling, and form validation.
+
+---
+
+output:
+
+<img width="983" height="904" alt="image" src="https://github.com/user-attachments/assets/f197ccab-d919-4db4-a5f1-424c21d5c8cf" />
+
+<img width="871" height="746" alt="image" src="https://github.com/user-attachments/assets/3aa900fb-591a-49e5-8eca-40131e3bb06e" />
+
+
+
+## 👨‍💻 Author
+**Manasha**
+
+---
