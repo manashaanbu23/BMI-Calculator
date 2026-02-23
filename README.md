@@ -30,7 +30,8 @@ BMI-Calculator/
 │
 ├── src/
 │   ├── components/
-│   │   └── BMIForm.jsx
+│   │   ├── BMI.jsx
+│   │   └── Result.jsx
 │   │
 │   ├── App.jsx
 │   ├── main.jsx
