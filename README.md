@@ -25,24 +25,22 @@ This application allows users to enter their personal details and instantly view
 
 ## 📂 Project Structure
 
----
-
+```
 BMI-Calculator/
 │
 ├── src/
-│ ├── components/
-│ │ └── BMIForm.jsx
-│ │
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── styles.css
+│   ├── components/
+│   │   └── BMIForm.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
 │
 ├── public/
-│
 ├── index.html
 ├── package.json
 └── README.md
-
+```
 
 ---
 
