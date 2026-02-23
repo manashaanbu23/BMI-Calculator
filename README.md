@@ -1,4 +1,4 @@
-<img width="871" height="746" alt="image" src="https://github.com/user-attachments/assets/c7e6cec8-d6b3-4618-bae0-c4dc7e9ad5c3" /># 🧮 BMI Calculator
+# 🧮 BMI Calculator
 
 A responsive BMI Calculator web application built using React.  
 This application allows users to enter their personal details and instantly view their BMI result along with the corresponding health category.
